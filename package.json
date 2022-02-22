@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,10 @@
     "url": "https://github.com/Wences81/test-back-phones1/issues"
   },
   "homepage": "https://github.com/Wences81/test-back-phones1#readme",
-  "dependencies": {}
+  "dependencies": {
+    "commander": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

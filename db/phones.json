@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung",
+    "name": "Galaxy S22",
+    "imageUrl": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2022/02/galaxy-s22-2602753.jpg?itok=2pXBy5Ql",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit porta, euismod ultricies dictum scelerisque nisl libero convallis himenaeos, magnis cursus fringilla lobortis facilisi litora integer. Eget tempus mus blandit habitant lobortis mattis ullamcorper netus fringilla, sem nullam inceptos nisl posuere sociis egestas.",
+    "color": "withe",
+    "price": "1350"
+  },
+  {
+    "id": 2,
+    "title": "Apple",
+    "name": "iPhone 13",
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-silver-select?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1631652954000",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit porta, euismod ultricies dictum scelerisque nisl libero convallis himenaeos, magnis cursus fringilla lobortis facilisi litora integer. Eget tempus mus blandit habitant lobortis mattis ullamcorper netus fringilla, sem nullam inceptos nisl posuere sociis egestas.",
+    "color": "black",
+    "price": "1250"
+  },
+    {
+    "id": 3,
+    "title": "Google",
+    "name": "Pixel 6",
+    "imageUrl": "https://m.media-amazon.com/images/I/716n8eAia+L._AC_SX522_.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit porta, euismod ultricies dictum scelerisque nisl libero convallis himenaeos, magnis cursus fringilla lobortis facilisi litora integer. Eget tempus mus blandit habitant lobortis mattis ullamcorper netus fringilla, sem nullam inceptos nisl posuere sociis egestas.",
+    "color": "blue",
+    "price": "850"
+  },
+  {
+    "id": 4,
+    "title": "Samsung",
+    "name": "Z Flip 3",
+    "imageUrl": "https://cdn.pocket-lint.com/r/s/970x/assets/images/157947-phones-news-samsung-galaxy-z-flip-3-5g-full-specs-revealed-in-leak-image10-wo2fnzxq6a.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit porta, euismod ultricies dictum scelerisque nisl libero convallis himenaeos, magnis cursus fringilla lobortis facilisi litora integer. Eget tempus mus blandit habitant lobortis mattis ullamcorper netus fringilla, sem nullam inceptos nisl posuere sociis egestas.",
+    "color": "green",
+    "price": "1130"
+  },
+  {
+    "id": 5,
+    "title": "Apple",
+    "name": "iPhone SE",
+    "imageUrl": "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=640/https://d1eh9yux7w8iql.cloudfront.net/product_images/347039_04dd59af-c59a-42e5-9278-8cb7b7a8cb9a.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit porta, euismod ultricies dictum scelerisque nisl libero convallis himenaeos, magnis cursus fringilla lobortis facilisi litora integer. Eget tempus mus blandit habitant lobortis mattis ullamcorper netus fringilla, sem nullam inceptos nisl posuere sociis egestas.",
+    "color": "red",
+    "price": "980"
+  }
+]
