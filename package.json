@@ -17,7 +17,5 @@
     "url": "https://github.com/Wences81/test-back-phones1/issues"
   },
   "homepage": "https://github.com/Wences81/test-back-phones1#readme",
-  "dependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "dependencies": {}
 }
