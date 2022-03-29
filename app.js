@@ -1,25 +1,25 @@
-const express = require('express')
-const logger = require('morgan')
-const cors = require('cors')
+const mongoose = require('mongoose');
+const express = require('express');
+const cors = require('cors');
+const dotenv = require('dotenv')
+dotenv.config();
 
 const phonesRouter = require('./routes/api/phones')
 
 const app = express()
 
-const formatsLogger = app.get('env') === 'development' ? 'dev' : 'short'
-
-app.use(logger(formatsLogger))
 app.use(cors())
 app.use(express.json())
 
 app.use('/api/phones', phonesRouter)
 
-app.use((req, res) => {
-    res.status(404).json({ message: 'Not found' })
-})
+const { DB_HOST, PORT = 3000 } = process.env;
 
-app.use((err, req, res, next) => {
-    res.status(500).json({ message: err.message })
-})
 
-module.exports = app
+mongoose.connect(DB_HOST)
+    .then(() => app.listen(PORT))
+    .catch(error => {
+        console.log(error.message);
+        process.exit(1);
+    })
+
